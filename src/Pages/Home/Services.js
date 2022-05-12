@@ -24,7 +24,7 @@ const Services = () => {
             description: '',
             img: Whitening
         }
-    ]
+    ];
     return (
         <div className='my-28'>
             <div className='text-center'>
