@@ -12,11 +12,11 @@ const ContactUs = () => {
                 </div>
 
                 <form className='mt-5'>
-                    <input type="text" placeholder="Email Address" class="input input-bordered  w-full max-w-xs" />
+                    <input type="text" placeholder="Email Address" className="input input-bordered  w-full max-w-md" />
                     <br />
-                    <input type="text" placeholder="Subject" class="input  input-bordered w-full max-w-xs my-3" />
+                    <input type="text" placeholder="Subject" className="input  input-bordered w-full max-w-md my-3" />
                     <br />
-                    <textarea class="textarea w-full max-w-xs" placeholder="Bio"></textarea>
+                    <textarea className="textarea w-full max-w-md" placeholder="Your message"></textarea>
                     <br />
                     <PrimaryButton>Submit</PrimaryButton>
                 </form>
