@@ -16,7 +16,6 @@ const Review = ({ review }) => {
                         <h4 className="text-xl">{review.name}</h4>
                         <p>{review.location}</p>
                     </div>
-
                 </div>
             </div>
         </div>
