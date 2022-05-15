@@ -8,7 +8,8 @@ const BookingModal = ({ treatment, date, setTreatment }) => {
         event.preventDefault();
         const slot = event.target.slot.value;
         console.log(_id, name, slot);
-        setTreatment(null); // submit korar por modal automatic close hocce na, close korar jonno setTreatment er value null kore deya hoyese.
+        // to close the modal
+        setTreatment(null);
     }
 
     return (
