@@ -11,6 +11,7 @@ const BookingModal = ({ treatment, date, setTreatment, refetch }) => {
     const handleBoooking = event => {
         event.preventDefault();
         const slot = event.target.slot.value;
+
         const booking = {
             treatmentId: _id,
             treatment: name,
@@ -37,9 +38,10 @@ const BookingModal = ({ treatment, date, setTreatment, refetch }) => {
                     toast.error(`Already have an appointment on ${data.booking?.date} at ${data.booking?.slot}`);
                 }
                 // to close the modal
-                refetch();
                 setTreatment(null);
-            })
+                refetch();
+
+            });
     }
 
     return (
